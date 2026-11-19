@@ -1,5 +1,5 @@
-name: rumbo
-description: "Rumbo — Localizador de Puntos de Interés: GPS en tiempo real, Google Maps, distancias y geocodificación inversa."
+name: mapasgeo
+description: "MapasGeo — Localizador de Puntos de Interés: GPS en tiempo real, Google Maps, distancias y geocodificación inversa."
 publish_to: 'none'
 version: 1.0.0+1
 
