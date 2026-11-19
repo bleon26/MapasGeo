@@ -271,7 +271,7 @@ class _GateScreenState extends State<GateScreen>
                     ),
                   ),
                   Text(
-                    'Rumbo',
+                    'MapasGeo',
                     style: t.displayMedium?.copyWith(
                       fontWeight: FontWeight.w700,
                       letterSpacing: -1.5,

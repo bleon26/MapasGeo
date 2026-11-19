@@ -16,18 +16,18 @@ void main() {
       systemNavigationBarIconBrightness: Brightness.light,
     ),
   );
-  runApp(const RumboApp());
+  runApp(const MapasGeoApp());
 }
 
-class RumboApp extends StatelessWidget {
-  const RumboApp({super.key});
+class MapasGeoApp extends StatelessWidget {
+  const MapasGeoApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Rumbo',
+      title: 'MapasGeo',
       debugShowCheckedModeBanner: false,
-      theme: buildRumboTheme(),
+      theme: buildMapasGeoTheme(),
       home: const GateScreen(),
     );
   }

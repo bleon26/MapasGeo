@@ -1,4 +1,4 @@
-package com.utxj.rumbo
+package com.utxj.mapasgeo
 
 import io.flutter.embedding.android.FlutterActivity
 

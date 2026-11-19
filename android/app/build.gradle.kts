@@ -20,7 +20,7 @@ val localProperties = Properties().apply {
 val mapsApiKey: String = localProperties.getProperty("maps.apikey") ?: ""
 
 android {
-    namespace = "com.utxj.rumbo"
+    namespace = "com.utxj.mapasgeo"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
@@ -34,7 +34,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.utxj.rumbo"
+        applicationId = "com.utxj.mapasgeo"
         // google_maps_flutter y geolocator requieren 21+; usamos 23 por estabilidad.
         minSdk = maxOf(flutter.minSdkVersion, 23)
         targetSdk = flutter.targetSdkVersion

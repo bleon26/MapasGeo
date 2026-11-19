@@ -29,7 +29,7 @@ extension MapLookX on MapLook {
   MapLook get next => MapLook.values[(index + 1) % MapLook.values.length];
 }
 
-/// Estilo propio "Rumbo Nocturno": azul noche con parques verde menta.
+/// Estilo propio "MapasGeo Nocturno": azul noche con parques verde menta.
 const String kNightStyle = '''
 [
   {"elementType":"geometry","stylers":[{"color":"#0e1729"}]},
@@ -57,7 +57,7 @@ const String kNightStyle = '''
 ]
 ''';
 
-/// Estilo propio "Rumbo Claro": papel limpio, tonos suaves.
+/// Estilo propio "MapasGeo Claro": papel limpio, tonos suaves.
 const String kLightStyle = '''
 [
   {"elementType":"geometry","stylers":[{"color":"#f4f6fb"}]},

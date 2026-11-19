@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-/// Paleta "Rumbo": azul noche profundo con acentos menta (tú) y coral (destino).
+/// Paleta "MapasGeo": azul noche profundo con acentos menta (tú) y coral (destino).
 class AppColors {
   AppColors._();
 
@@ -21,7 +21,7 @@ class AppColors {
   static const faint = Color(0xFF5B6886);
 }
 
-ThemeData buildRumboTheme() {
+ThemeData buildMapasGeoTheme() {
   final base = ThemeData(
     useMaterial3: true,
     brightness: Brightness.dark,

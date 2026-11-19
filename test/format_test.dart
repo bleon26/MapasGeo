@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rumbo/utils/format.dart';
+import 'package:mapasgeo/utils/format.dart';
 
 void main() {
   test('formatea metros y kilómetros', () {

@@ -571,7 +571,7 @@ class _TopBar extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  'Rumbo',
+                  'MapasGeo',
                   style: t.titleMedium?.copyWith(
                     fontWeight: FontWeight.w700,
                     height: 1.1,
